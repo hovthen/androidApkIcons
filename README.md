@@ -2,6 +2,25 @@
 
 安卓应用桌面图标引用库
 
+## 脚本工具
+
+```cmd
+> python updateData.py --help
+使用方式: updateData.py [-h] [-v] [-add JSONDATAFILEPATH] [-up ICONSPACKAGENAME]
+
+图标包数据更新工具
+
+options:
+  -h, --help            显示帮助信息并退出
+  -v, --version         查看当前版本号: -v
+  -add JSONDATAFILEPATH, --add JSONDATAFILEPATH
+                        补全基础数据：-add 'apksDate.json'
+  -up ICONSPACKAGENAME, --update ICONSPACKAGENAME
+                        更新图标包数据: -up 'PrefectOne'
+```
+
+将自动读取文件夹内图标文件名，并生成 JSON 数据文件。
+
 ## 图标包
 
 ### 补全计划One / Prefect One
